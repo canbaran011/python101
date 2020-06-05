@@ -121,3 +121,85 @@ testNot = not True
 
 print(testAnd, testOr , testNot)
 print("\n") #new line 
+
+#Conditional Statements
+print("Conditional Statements")
+
+def soda(money):
+	if money >= 2:
+		return "You got soda"
+	else:
+		return "No Soda for U"
+
+print(soda(3))
+print(soda(1))			
+
+def alcohol(age , money):
+	if (age >= 21) and (money >= 5):
+		return "take your alcohol"
+	elif (age >= 21) and ( money < 5):
+		return "come back with money"
+	elif (age < 21) and ( money >= 5):
+		return "nice try kiddo"
+	else:
+		return "poor and young huh !"
+
+			
+print(alcohol(14,1))
+print(alcohol(34,1))
+print(alcohol(25,54))
+
+print("\n") #new line 
+
+#Lists 
+print("Lists have brackets")
+movies = ["harry mets sally", "lotr", "exorcist" , "malcolmX"]
+
+print(movies[0])
+print(movies[0:2])
+# print(movies)
+print(movies[1:])
+print(movies[:1])
+print(movies[-1])
+print(len(movies))
+
+movies.append("Jaws")
+
+print(movies)
+movies.pop()
+print(movies)
+
+movies.pop(1)
+print(movies)
+
+movies = ["harry mets sally", "lotr", "exorcist" , "malcolmX"]
+person = ["Heath" , "Jake" , "Leah" , "Jeff"]
+combined = zip(movies,person)
+print(list(combined))
+
+print("\n") #new line 
+
+#Tuples #tuples are static or sth 
+print("Tuples have paranthesis and cannot change")
+grades = ("A" , "B" , "C" , "D" , "F")
+print(grades[1])
+
+#Looping
+print("For loops - start to finish of iterate:")
+
+vegatables = ["cucumber", "spinach", "cabbage"]
+for x in vegatables:
+	print(x)
+print("While LOOPS _ execute as long as TRUE")
+i = 1
+while i <= 10:
+	print(i)
+	i += 1
+
+
+
+
+
+
+
+
