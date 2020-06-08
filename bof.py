@@ -13,5 +13,5 @@ while True:
         sleep(1)
         buffer = buffer + "A"*100
     except:
-        print "fuzzling crashed at %s bytes " % (str(len(buffer)))
+        print("fuzzling crashed at %s bytes " % (str(len(buffer))))
         sys.exit()    
