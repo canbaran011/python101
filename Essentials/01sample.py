@@ -227,6 +227,6 @@
 # print("The thirteenth character is '%s'" % s[12]) # Just number 12
 # print("The characters with odd index are '%s'" %s[1::2]) #(0-based indexing)
 
-
+print("hello python")
 
 
